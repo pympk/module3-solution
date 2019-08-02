@@ -1,0 +1,86 @@
+body {
+    font-size: 16px;
+    /* background-color: #61122f; */
+}
+   
+/* HEADER */
+#header-nav {
+  /* height: 58px; */
+
+
+  background-color: rgb(181, 181, 181);
+  border: 2px solid black;  
+  border-radius: 0px;
+}
+
+#collapsable-nav {
+  /* removes bootstrap default border-top 1px solid transparent  */
+  border-top: 0px;    
+}
+
+.navbar-header button.navbar-toggle {     
+  /* dark outline around button */
+  border: 2px solid black;
+}
+
+.icon-bar {     
+  /* border: 2px solid goldenrod; */
+  border: 2px solid black;
+}
+
+.navbar-brand h1 { /* Restaurant name */
+  /* text-transform: uppercase; */
+  /* text-shadow: 1px 1px 1px rgb(134, 2, 2); */
+  color: black;
+  font-size: 1.5em;
+  font-weight: bold; 
+  margin-top: 0;
+  margin-bottom: 0;
+  /* line-height: .75; */
+}
+
+#nav-list {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  background-color: white;
+}
+
+#nav-list-first-p {
+  /* border-top: 2px solid greenyellow; */
+  border-top: 2px solid black;
+}
+
+#nav-list p {
+  font-size: 1.5em;
+  color: black;
+  text-align: center;
+  /* background-color: greenyellow; */
+  margin-bottom: 0px;
+  /* border: 2px solid blue; */
+  /* border-bottom: 2px solid blue; */
+  border-bottom: 2px solid black;
+}
+
+/* END HEADER */
+
+.page-header {
+  margin-bottom: 0px;
+  border-bottom-width: 0px; 
+}
+
+.page-header h1 {
+  text-align: center;
+  font-size: 27px;
+  font-weight: bold;
+  color: black;
+}
+
+.menu_item {
+  margin-top: 30px;
+  font-weight: bold;
+}
+
+#menu_item{
+  background-color: rgb(181, 181, 181);
+}
+
